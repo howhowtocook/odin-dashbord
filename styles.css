@@ -1,0 +1,116 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    }
+
+.sidebar{
+    grid-row: 1/3;
+    background-color: lightblue;
+    align-content: start;
+    justify-content: left;
+
+    display:grid ;
+    grid-template-rows: 2;
+    gap: 5rem; 
+    padding: 1.5rem;
+}
+
+.nav{
+    display: grid;
+    grid-template-rows: 10;
+    gap: 1rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1rem 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: lightgoldenrodyellow;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding:2rem;
+    
+
+    background-color: lightcyan;
+}
+
+.project{
+    grid-row: 1/3;
+
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 10%;
+    justify-content: space-between;
+    align-items: space-between;
+
+}
+
+.announcement{
+    grid-row: 1/2;
+}
+.announcements{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0;
+
+    margin-top: 10%;
+    background-color: azure;
+}
+
+.trending{
+    grid-row: 2/3;
+}
+.trendings{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0;
+    margin-top: 10%;
+    background-color: azure;
+}
+
+.title{
+    font-weight: bold;
+}
+.announcements-card,.trendings-card{
+    border:1px solid lightgray;
+    padding: 10%;
+}
+
+.projects-card{
+    box-shadow: -5px -5px lightyellow;
+    background-color: aliceblue;
+    padding: 10%;
+}
+
+.label{
+    font-size: 1.5rem;
+}
+
+.navlink{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.brand{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
